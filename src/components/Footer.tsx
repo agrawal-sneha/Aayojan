@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4 pt-16 pb-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h2 className="text-2xl font-bold text-red-600 mb-4">Aayojan</h2>
+            <h2 className="text-2xl font-bold text-red-600 mb-4">Aayojana</h2>
             <p className="mb-6">
               Discover events based on your mood, interests, and location. Never miss out on experiences that matter to you.
             </p>
@@ -97,7 +97,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="mb-4 md:mb-0">&copy; 2025 Aayojan. All rights reserved.</p>
+            <p className="mb-4 md:mb-0">&copy; 2025 Aayojana. All rights reserved.</p>
             <div className="flex space-x-6">
               <Link to="/terms" className="hover:text-white transition-colors duration-200">Terms of Service</Link>
               <Link to="/privacy" className="hover:text-white transition-colors duration-200">Privacy Policy</Link>

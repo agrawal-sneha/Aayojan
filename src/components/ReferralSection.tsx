@@ -3,10 +3,10 @@ import { Share2, Copy, Gift } from 'lucide-react';
 
 const ReferralSection: React.FC = () => {
   const [copied, setCopied] = React.useState(false);
-  const referralCode = "AAYOJAN2025";
+  const referralCode = "AAYOJANA2025";
 
   const copyToClipboard = () => {
-    navigator.clipboard.writeText(`https://aayojan.com/refer?code=${referralCode}`);
+    navigator.clipboard.writeText(`https://aayojana.com/refer?code=${referralCode}`);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -19,7 +19,7 @@ const ReferralSection: React.FC = () => {
             <div className="md:w-3/5 mb-8 md:mb-0 md:pr-10">
               <h2 className="text-3xl font-bold text-white mb-4">Refer & Earn Rewards</h2>
               <p className="text-gray-300 mb-6">
-                Invite your friends to Aayojan and both of you get exclusive rewards, discounts on event tickets, and more!
+                Invite your friends to Aayojana and both of you get exclusive rewards, discounts on event tickets, and more!
               </p>
               
               <div className="space-y-4">
