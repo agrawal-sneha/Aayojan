@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
           <div>
             <h2 className="text-2xl font-bold text-red-600 mb-4">Aayojana</h2>
             <p className="mb-6">
-              Discover professional events, conferences, and networking opportunities that advance your career and business goals.
+              Discover events based on your mood, interests, and location. Never miss out on experiences that matter to you.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">

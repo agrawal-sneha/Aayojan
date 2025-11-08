@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Search } from 'lucide-react';
 
 const moods = [
-  'Network', 'Learn', 'Lead', 'Innovate', 'Grow', 'Connect', 'Inspire'
+  'Energetic', 'Relaxed', 'Social', 'Creative', 'Adventurous', 'Cultural', 'Professional'
 ];
 
 const Hero: React.FC = () => {
@@ -22,10 +22,10 @@ const Hero: React.FC = () => {
 
       <div className="relative container mx-auto px-4 z-10 text-center">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 leading-tight">
-          Discover Professional <span className="text-red-600">Events</span>
+          Discover Your Next <span className="text-red-600">Experience</span>
         </h1>
         <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-          Find corporate events, networking opportunities, and professional development experiences that advance your career.
+          Find events that match your mood, connect with people, and create memories that last a lifetime.
         </p>
 
         <div className="relative max-w-xl mx-auto mb-8">
@@ -35,12 +35,12 @@ const Hero: React.FC = () => {
           <input
             type="text"
             className="block w-full pl-10 pr-3 py-3 rounded-lg bg-black/70 border border-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500"
-            placeholder="Search for conferences, workshops, or networking events..."
+            placeholder="Search for events, venues, or artists..."
           />
         </div>
 
         <div className="mb-8">
-          <h3 className="text-white text-lg mb-3">What are you looking to achieve?</h3>
+          <h3 className="text-white text-lg mb-3">How are you feeling today?</h3>
           <div className="flex flex-wrap justify-center gap-2">
             {moods.map((mood) => (
               <button
