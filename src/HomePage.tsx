@@ -16,7 +16,7 @@ const HomePage: React.FC = () => {
       
       <div className="py-6 bg-black">
         <EventsList 
-          title="Featured Events" 
+          title="Featured Corporate Events" 
           viewAllLink="/events/featured"
           events={featuredEvents}
         />
@@ -26,7 +26,7 @@ const HomePage: React.FC = () => {
       
       <div className="py-6 bg-gradient-to-b from-gray-900 to-black">
         <EventsList 
-          title="College Events" 
+          title="College & Campus Events" 
           viewAllLink="/events/college"
           events={collegeEvents}
         />
@@ -36,7 +36,7 @@ const HomePage: React.FC = () => {
       
       <div className="py-6 bg-black">
         <EventsList 
-          title="Trending Events" 
+          title="Trending Professional Events" 
           viewAllLink="/events/trending"
           events={trendingEvents}
         />

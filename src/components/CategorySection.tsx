@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Music, Radical as MicVocal, Megaphone, Lightbulb, GraduationCap, Award, Ticket, Users } from 'lucide-react';
+import { Briefcase, Users, Lightbulb, TrendingUp, Award, Calendar, Building, Network } from 'lucide-react';
 import { Link } from '../utils/Link';
 
 interface Category {
@@ -10,14 +10,14 @@ interface Category {
 }
 
 const categories: Category[] = [
-  { id: 'concert', name: 'Concerts', icon: <Music className="h-6 w-6" />, events: 156 },
-  { id: 'comedy', name: 'Comedy Shows', icon: <MicVocal className="h-6 w-6" />, events: 89 },
-  { id: 'talks', name: 'Talks & Seminars', icon: <Megaphone className="h-6 w-6" />, events: 112 },
-  { id: 'workshops', name: 'Workshops', icon: <Lightbulb className="h-6 w-6" />, events: 74 },
-  { id: 'college', name: 'College Fests', icon: <GraduationCap className="h-6 w-6" />, events: 203 },
+  { id: 'conferences', name: 'Conferences', icon: <Briefcase className="h-6 w-6" />, events: 156 },
+  { id: 'networking', name: 'Networking', icon: <Users className="h-6 w-6" />, events: 189 },
+  { id: 'workshops', name: 'Workshops', icon: <Lightbulb className="h-6 w-6" />, events: 142 },
+  { id: 'leadership', name: 'Leadership', icon: <TrendingUp className="h-6 w-6" />, events: 87 },
   { id: 'awards', name: 'Award Shows', icon: <Award className="h-6 w-6" />, events: 31 },
-  { id: 'exhibitions', name: 'Exhibitions', icon: <Ticket className="h-6 w-6" />, events: 64 },
-  { id: 'meetups', name: 'Meetups', icon: <Users className="h-6 w-6" />, events: 128 }
+  { id: 'seminars', name: 'Seminars', icon: <Calendar className="h-6 w-6" />, events: 94 },
+  { id: 'corporate', name: 'Corporate Events', icon: <Building className="h-6 w-6" />, events: 76 },
+  { id: 'meetups', name: 'Tech Meetups', icon: <Network className="h-6 w-6" />, events: 128 }
 ];
 
 const CategorySection: React.FC = () => {

@@ -52,7 +52,7 @@ const CollegeSection: React.FC = () => {
     <section className="py-16 bg-gradient-to-b from-black to-gray-900">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center mb-8">
-          <h2 className="text-3xl font-bold text-white">Featured Colleges</h2>
+          <h2 className="text-3xl font-bold text-white">Campus & Educational Events</h2>
           <Link to="/colleges" className="text-red-500 hover:text-red-400 font-medium">
             View All
           </Link>
@@ -79,13 +79,13 @@ const CollegeSection: React.FC = () => {
         <div className="mt-12 bg-gray-800 rounded-lg p-6 md:p-8">
           <div className="md:flex items-center">
             <div className="md:w-2/3 mb-6 md:mb-0 md:pr-8">
-              <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">Are you a college event organizer?</h3>
+              <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">Are you an event organizer?</h3>
               <p className="text-gray-300 mb-6">
-                List your college events, fests, and workshops on Aayojan to reach a wider audience and boost attendance.
-                Get detailed analytics, manage registrations, and more!
+                List your corporate events, conferences, and workshops on Aayojana to reach professionals and boost attendance.
+                Get detailed analytics, manage registrations, and connect with your target audience!
               </p>
               <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-6 rounded-lg transition-colors duration-200">
-                Register Your College
+                List Your Event
               </button>
             </div>
             <div className="md:w-1/3">

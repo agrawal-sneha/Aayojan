@@ -26,14 +26,15 @@ const EventCard: React.FC<EventProps> = ({
 
   const getCategoryColor = (category: string) => {
     const colors: Record<string, string> = {
-      'concert': 'bg-purple-600',
-      'comedy': 'bg-yellow-600',
-      'talk': 'bg-blue-600',
+      'conference': 'bg-blue-600',
+      'networking': 'bg-green-600',
       'workshop': 'bg-green-600',
+      'leadership': 'bg-purple-600',
       'cultural': 'bg-pink-600',
       'technical': 'bg-cyan-600',
       'management': 'bg-orange-600',
-      'sports': 'bg-red-600',
+      'corporate': 'bg-gray-600',
+      'seminars': 'bg-indigo-600',
     };
     
     // Default to a neutral color if category isn't in our map
